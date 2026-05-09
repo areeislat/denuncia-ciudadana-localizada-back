@@ -25,6 +25,9 @@ public class User {
     @Column(name = "fullname")
     private String fullName;
 
+    @Column(name = "rut", nullable = false, unique = true)
+    private String rut;
+
     @Column(name = "phone")
     private String phone;
 
