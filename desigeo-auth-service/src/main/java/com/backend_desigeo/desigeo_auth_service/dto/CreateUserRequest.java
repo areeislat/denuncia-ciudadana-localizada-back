@@ -2,7 +2,6 @@ package com.backend_desigeo.desigeo_auth_service.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 
 public class CreateUserRequest {
 
@@ -15,9 +14,6 @@ public class CreateUserRequest {
 
     @NotBlank(message = "fullName is required")
     private String fullName;
-
-    @NotNull(message = "roleId is required")
-    private Integer roleId;
 
     private Boolean active = Boolean.TRUE;
 
@@ -43,14 +39,6 @@ public class CreateUserRequest {
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
-    }
-
-    public Integer getRoleId() {
-        return roleId;
-    }
-
-    public void setRoleId(Integer roleId) {
-        this.roleId = roleId;
     }
 
     public Boolean getActive() {
