@@ -208,7 +208,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"email\": \"new.user@example.com\",\n  \"password\": \"Password123!\",\n  \"fullName\": \"New User\",\n  \"roleName\": \"CITIZEN\",\n  \"phone\": \"+56911112222\"\n}"
+              "raw": "{\n  \"email\": \"new.user@example.com\",\n  \"password\": \"Password123!\",\n  \"fullName\": \"New User\",\n  \"roleName\": \"CITIZEN\",\n  \"phone\": \"+56911112222\",\n \"rut\": \"123456789\"\n}"
             },
             "description": "Creates a new user in the user management service."
           }
